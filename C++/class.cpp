@@ -29,13 +29,15 @@ class student
 
 int main ()
 {
+    // Declear object of class
     student s1,s2;
+    // enter details of 1st student and 2nd student
     s1.input();
     s2.input();
 
+    // display details of 1st student
     s1.display();
     s2.display();
-
 
     return 0;
 }
