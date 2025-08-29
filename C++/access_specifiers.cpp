@@ -38,13 +38,13 @@ int main()
     a1.sum();
     a1.display();
 
-    // public and protected can not access directly outside the class --
+    // public and protected can not access directly outside the class -
 
     // cout<<"2nd sum is : ";   // give error
-    // a2.a = 15;               // give error
-    // a2.b = 12;
-    // a2.sum();
-    // a2.display();
+    // a2.a = 15;               // give error 
+    // a2.b = 12; 
+    // a2.sum(); 
+    // a2.display(); 
 
     return 0;
 }
