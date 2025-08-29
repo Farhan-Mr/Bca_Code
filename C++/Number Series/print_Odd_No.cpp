@@ -7,13 +7,12 @@ int main()
 {
     cout<<"Odd numbers under 50 : ";
 
-    for( int i=0; i<50; i++)
+    for( int i=1; i<50; i++)
     {
-        if (i/2!=0)
+        if (i%2!=0)
         {
-            cout<<i ;
+            cout<< i << ", ";
         }
-        cout<<"\n";
     }
     return 0;
 }
