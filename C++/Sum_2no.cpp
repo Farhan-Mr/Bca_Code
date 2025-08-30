@@ -6,7 +6,7 @@
     int main ()
     {
         // Variable declaration
-        int a,b,c;
+        int a,b,sum;
 
         // Input two number
         cout<<"Enter 1st number : ";
@@ -14,10 +14,12 @@
 
         cout<<"Enter 2nd Number : ";
         cin>>b;
+
         // sum of two number
-        c = a+b;
-        // print sum
-        cout<<"Sum is "<<c;
+        sum = a+b;
+
+        // print sum of two number 
+        cout<<"Sum is "<<sum;
 
         return 0;
     }
