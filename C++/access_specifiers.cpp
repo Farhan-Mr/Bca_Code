@@ -14,10 +14,12 @@ class addition
 
     void input()
     {
-        cout<<"Enter 1st number for sum : ";
-        cin>>a;
-        cout<<"Enter 2nd number for sum : ";
-        cin>>b;
+        // cout<<"Enter 1st number for sum : ";
+        // cin>>a;
+        // cout<<"Enter 2nd number for sum : ";
+        // cin>>b;
+        cout<<"Enter 2 no. do sum : ";
+        cin>>a>>b;
     }
     void sum()
     {
