@@ -30,7 +30,7 @@ class student
 int main ()
 {
     // Declear object of class
-    student s1,s2;
+    student s1,s2,s3;
     // enter details of 1st student and 2nd student
     s1.input();
     s2.input();
@@ -38,6 +38,10 @@ int main ()
     // display details of 1st student
     s1.display();
     s2.display();
+
+    s3.input();
+    s3.display();
+
 
     return 0;
 }
