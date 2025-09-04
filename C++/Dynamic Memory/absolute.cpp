@@ -15,7 +15,7 @@
         }
         else
         {
-            cout<<"Absolute value of "<<n<<" is : "<< -n <<endl;
+            cout<<"Absolute value of "<<n<<" is : "<< -n;
         }
 
         return 0;
