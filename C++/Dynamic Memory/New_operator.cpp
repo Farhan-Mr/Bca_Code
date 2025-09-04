@@ -9,7 +9,7 @@
         int *p = new int;
         *p = 42;
 
-        cout<<"Value of p is  "<<*p <<endl;
+        cout<<"Value of p is :  "<<*p <<endl;
 
         return 0;
     }
