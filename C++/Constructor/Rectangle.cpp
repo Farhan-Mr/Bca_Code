@@ -13,7 +13,7 @@
 
             public :
             
-            void Area()
+            int Area()
             {
                 cout<<endl;
                 cout<<"Enter Length and Width to find Area of Rectangle "<<"\n";
@@ -23,10 +23,11 @@
                 cout<<"Enter Width : ";
                 cin>>width;
 
-                cout<<"Area is : "<< length*width;
+                return length*width;
+
             }
 
-            void Perimeter ()
+            int Perimeter ()
             {
                 cout<<endl;
                 cout<<"Enter Length and Width to find Perimeter of Rectangle "<<"\n";
@@ -36,7 +37,7 @@
                 cout<<"Enter Width : ";
                 cin>>width;
 
-                cout<<"Perimeter is : "<< 2*(length+width);
+                return 2*(length+width);
 
             }
         };
@@ -47,10 +48,14 @@
         cout<<"-- RECTANGLE --";
         
         Rectangle area;
-        area.Area();
+        int ans = area.Area();
+        cout<<ans;
+
 
         Rectangle peri;
-        peri.Perimeter();
+        int anss = peri.Perimeter();
+        cout<<anss;
+
 
 
         return 0;
