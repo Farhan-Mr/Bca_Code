@@ -27,7 +27,7 @@
             }
 
             //   Parameterized constructor -
-            Point( int a, int b)    // taking two integers for x and y.
+            Point( int a, int b)    // taking two integers for x and y. 
             {
                 x = a;
                 y = b;
