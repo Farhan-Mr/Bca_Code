@@ -21,6 +21,28 @@
         }
     };
 
+    class B
+    {
+        protected : int m;
+
+        public :
+
+        void input2 ()
+        {
+            cout<<"Enter another number : ";
+            cin>>m;
+        }
+        void display2()
+        {
+            cout<<"Another number is -> "<<m;
+        }
+    };
+
+    class C : public A, public B
+    {
+
+    };
+
     int main ()
     {
         return 0;
