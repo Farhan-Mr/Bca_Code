@@ -17,7 +17,7 @@
 
         void display ()
         {
-            cout<<"Number is -> "<<n;
+            cout<<"Number is -> "<<n<<endl;
         }
     };
 
@@ -34,7 +34,7 @@
         }
         void display2()
         {
-            cout<<"Another number is -> "<<m;
+            cout<<"Another number is -> "<<m<<endl;
         }
     };
 
@@ -51,13 +51,21 @@
 
         void show()
         {
+            cout<<endl;
             cout<<"Sum is -> "<<sum;
         }
     };
 
     int main ()
     {
-        
+        C obj;
+        obj.input();
+        obj.input2();
+        obj.display();
+        obj.display2();
+        obj.add();
+        obj.show();
+
         return 0;
     }
 
