@@ -40,11 +40,24 @@
 
     class C : public A, public B
     {
+        private : int sum;
 
+        public :
+
+        void add ()
+        {
+            sum = n + m;
+        }
+
+        void show()
+        {
+            cout<<"Sum is -> "<<sum;
+        }
     };
 
     int main ()
     {
+        
         return 0;
     }
 
