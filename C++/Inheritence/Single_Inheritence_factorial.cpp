@@ -23,7 +23,7 @@
 
         class facts : public Fact
         {
-            protected : int F = 1;
+            protected : long long  F = 1;
 
             public :
             void factorial ()
@@ -36,7 +36,7 @@
 
             void answer ()
             {
-                cout << "factorial of "<<n<< " is = " << F;
+                cout << "Factorial of "<<n<< " is = " << F;
             }
         };
 
