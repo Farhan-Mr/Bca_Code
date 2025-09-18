@@ -39,4 +39,14 @@
                 cout << "factorial of "<<n<< " is = " << F;
             }
         };
-        
+
+        int main ()
+        {
+            facts f;
+            f.input();
+            f.show();
+            f.factorial();
+            f.answer();
+
+            return 0;
+        }
