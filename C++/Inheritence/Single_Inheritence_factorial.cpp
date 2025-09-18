@@ -28,7 +28,7 @@
             public :
             void factorial ()
             {
-                for (int i=1; i<n; i++)
+                for (int i=1; i<=n; i++)
                 {
                     F *= i;
                 }
@@ -42,9 +42,13 @@
 
         int main ()
         {
+            cout<<endl;
+
             facts f;
             f.input();
             f.show();
+
+            cout<<"\n";
             f.factorial();
             f.answer();
 
