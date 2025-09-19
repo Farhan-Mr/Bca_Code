@@ -50,6 +50,8 @@
 
     int main ()
     {
+        cout<<"\n";
+        
         Student Stu;
         Stu.input();
         Stu.Display();
