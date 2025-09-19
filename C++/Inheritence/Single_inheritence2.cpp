@@ -24,5 +24,17 @@
             cin >> age;
         }
 
-
+        void Display ()
+        {
+            cout <<endl << "Name is : "<<name << " and age is : "<<age;
+        }
     };
+
+    int main ()
+    {
+        Person P;
+        P.input();
+        P.Display();
+
+        return 0;
+    }
