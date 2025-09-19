@@ -21,7 +21,7 @@
         }
     };
 
-    class B
+    class B             // Another Base Class
     {
         protected : int m;
 
@@ -38,7 +38,7 @@
         }
     };
 
-    class C : public A, public B
+    class C : public A, public B            // Derived Class 
     {
         private : int sum;
 
