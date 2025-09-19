@@ -41,8 +41,10 @@
                     cin >> roll_number;
                 }
 
-                void Display2 ()
+                void displayStudent ()
                 {
+                    Display();
+
                     cout << "Roll number is "<<roll_number;
                 }
             
@@ -51,12 +53,11 @@
     int main ()
     {
         cout<<"\n";
-        
+
         Student Stu;
         Stu.input();
-        Stu.Display();
         Stu.input2();
-        Stu.Display2();
+        Stu.displayStudent();
 
 
         return 0;
