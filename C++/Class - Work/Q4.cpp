@@ -31,6 +31,11 @@
         {
             cout << "Factorial of " << num << " is : " << F <<  endl;
         }
+
+        ~fact ()
+        {
+            cout << "Destructor Called" << endl;
+        }
     };
 
     int main ()
