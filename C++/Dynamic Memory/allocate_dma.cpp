@@ -9,7 +9,7 @@ int main ()
     cout << "DMA -> dynamically memory allocation \n ";
 
    int *dma = new int ;
-    *dma = 20;
+    *dma = 114;
     cout << "DMA is : "<<*dma;
     
 
